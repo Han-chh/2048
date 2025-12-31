@@ -96,6 +96,9 @@
 # 编译
 javac -d out src/*.java
 
+# Copy resources (required)
+xcopy src\images out\images /E /I
+
 # 运行
 java -cp out MainGame
 ```

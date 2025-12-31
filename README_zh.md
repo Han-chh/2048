@@ -97,7 +97,8 @@
 javac -d out src/*.java
 
 # Copy resources (required)
-xcopy src\images out\images /E /I
+xcopy src\images out\images /E /I (Windows)
+cp -R src/Images out/Images (Mac)
 
 # 运行
 java -cp out MainGame

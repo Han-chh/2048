@@ -97,7 +97,8 @@ This is a classic 2048 number puzzle game implemented in Java Swing. Players mov
 javac -d out src/*.java
 
 # Copy resources (required)
-xcopy src\images out\images /E /I
+xcopy src\images out\images /E /I (Windows)
+cp -R src/Images out/Images (Mac)
 
 # Run
 java -cp out MainGame

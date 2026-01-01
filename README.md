@@ -90,18 +90,10 @@ This is a classic 2048 number puzzle game implemented in Java Swing. Players mov
 - **Dependencies**: Uses only standard Java libraries, no additional dependencies
 - **Operating Systems**: Supports Windows, macOS, Linux
 
-## Build and Run
+## Run
 
 ```bash
-# Compile
-javac -d out src/*.java
-
-# Copy resources (required)
-xcopy src\images out\images /E /I (Windows)
-cp -R src/Images out/Images (Mac)
-
-# Run
-java -cp out MainGame
+java -jar 2048.jar
 ```
 
 ## License

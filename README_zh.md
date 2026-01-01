@@ -90,18 +90,10 @@
 - **依赖库**：仅使用标准Java库，无额外依赖
 - **操作系统**：支持Windows、macOS、Linux
 
-## 编译运行
+## 运行
 
 ```bash
-# 编译
-javac -d out src/*.java
-
-# Copy resources (required)
-xcopy src\images out\images /E /I (Windows)
-cp -R src/Images out/Images (Mac)
-
-# 运行
-java -cp out MainGame
+java -jar 2048.jar
 ```
 
 ## 许可证

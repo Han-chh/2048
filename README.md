@@ -87,6 +87,7 @@ This is a classic 2048 number puzzle game implemented in Java Swing. Players mov
 ## Runtime Environment
 
 - **Java Version**: JDK 8 or higher
+- **Packaging Version**: The jar package is packaged with Java 25.
 - **Dependencies**: Uses only standard Java libraries, no additional dependencies
 - **Operating Systems**: Supports Windows, macOS, Linux
 
